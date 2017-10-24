@@ -1,8 +1,7 @@
 $(function(){
   $('article').each(function() {
-    var article = $(this).html();
     $(this).html(
-      article
+      $(this).html()
         .replace(/[\|｜](.+?)《(.+?)》/g, '<ruby>$1<rt>$2</rt></ruby>')
         .replace(/[\|｜](.+?)（(.+?)）/g, '<ruby>$1<rt>$2</rt></ruby>')
         .replace(/[\|｜](.+?)\((.+?)\)/g, '<ruby>$1<rt>$2</rt></ruby>')
