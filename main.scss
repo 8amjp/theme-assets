@@ -6,6 +6,12 @@
 .navbar{
   background-color: hsla(0, 100%, 100%, 0.9);
 }
+.navbar-brand img,
+.navbar-brand svg {
+  width: 30px;
+  height:30px;
+}
+
 article strong {
   -webkit-text-emphasis: filled circle black;
           text-emphasis: filled circle black;
